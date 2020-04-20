@@ -1,7 +1,8 @@
-##Guide
+Guide
 
 fill the following parameters according to your system. Topic names also you can customize
 
+```
 #define MQTT_SERVER "MQTT_SERVER_IP"
 
 const char* client_name = "CLIENT_NAME";
@@ -12,3 +13,4 @@ char* lightTopic   = "light";
 char* tempTopic   = "temp";
 char* humTopic   = "hum";
 char* soilTopic   = "soil";
+```
